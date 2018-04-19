@@ -42,7 +42,7 @@ PODS:
   - RCLighting (0.1):
     - pop
   - Reachability (3.2)
-  - SBJson (4.0.2)
+  - SBJson (5.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
@@ -50,7 +50,19 @@ DEPENDENCIES:
   - JSONKit (~> 1.5pre)
   - Qiniu (~> 7.0)
   - RCLighting
-  - SBJson (~> 4.0.2)
+  - SBJson (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - ASIHTTPRequest
+    - HappyDNS
+    - JSONKit
+    - pop
+    - Qiniu
+    - RCLighting
+    - Reachability
+    - SBJson
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
@@ -61,6 +73,8 @@ SPEC CHECKSUMS:
   Qiniu: 1fb5191b3bc1edb65b2da3d905b8281e15bd1d5c
   RCLighting: 65848aa2e93c7a5f250d3b281e73f76278725d2d
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 1224880da5000958875b00bd70c6e74b7657ca24
+
+COCOAPODS: 1.5.0
